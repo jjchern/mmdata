@@ -12,7 +12,10 @@ knitr::opts_chunk$set(
 )
 ```
 
-# About `mmdata`
+# About
+
+[![Travis-CI Build Status](https://travis-ci.org/jjchern/mmdata.svg?branch=master)](https://travis-ci.org/jjchern/mmdata)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/jjchern/mmdata?branch=master&svg=true)](https://ci.appveyor.com/project/jjchern/mmdata)
 
 The purpose of the R data package `mmdata` is to store datasets from the beloved econometrics textbook [Mastering 'Metrics].
 
@@ -25,4 +28,19 @@ The purpose of the R data package `mmdata` is to store datasets from the beloved
 devtools::install_github("jjchern/mmdata")
 ```
 
+# Usage
+
+## List All the Datasets
+
+```{r}
+library(mmdata)
+ls("package:mmdata", all = TRUE)
+```
+
+## The QOB Instrument from AK91
+
+```{r}
+library(tibble)
+mmdata::qob
+```
 
