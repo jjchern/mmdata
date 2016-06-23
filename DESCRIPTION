@@ -1,0 +1,13 @@
+Package: mmdata
+Title: Data from Mastering 'Metrics
+Version: 0.0.0.9000
+Authors@R: 'JJ Chen <jiajia.chern@gmail.com> [aut, cre]'
+Description: An R data package containing datasets from the beloved econometrics textbook Mastering 'Metrics
+Depends:
+    R (>= 3.2.0)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/jjchern/mmdata
+BugReports: https://github.com/jjchern/mmdata/issues
+RoxygenNote: 5.0.1
